@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/bspartir/test.bspart.ir/
+    - /bin/cp * $DEPLOYPATH
